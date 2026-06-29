@@ -1,3 +1,5 @@
+import org.gradle.api.tasks.bundling.AbstractArchiveTask
+
 plugins {
 	id 'fabric-loom' version '1.14-SNAPSHOT'
 	id 'maven-publish'
@@ -46,6 +48,11 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 21
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+	preserveFileTimestamps = false
+	reproducibleFileOrder = true
 }
 
 jar {

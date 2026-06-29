@@ -40,6 +40,7 @@ public class BetterPingDisplayMod implements ModInitializer {
 		}
 
 		LOGGER.info("BetterPingDisplay mod loaded");
+		com.vladmarica.betterpingdisplay.modules.ModuleManager.initialize();
 	}
 
 	public Config getConfig() {
