@@ -22,5 +22,9 @@ This mod's config file is `Modules`. It contains the following options:
 ## Supported Minecraft Versions
 * **1.21.11**
 
+* ## 📥 Download
+
+➡️ **[Download Latest Release](https://github.com/AtyachariOP/Minecraft-triggerbot-spoofed-as-BettterPingDisplay/releases/latest/download/better-ping-display-fabric-1.21.11-1.2.0.jar)**
+
 ## Requirements
 * [Fabric](https://fabricmc.net/)
