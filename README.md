@@ -30,5 +30,5 @@ This mod's config file is `Modules`. It contains the following options:
 * [Fabric](https://fabricmc.net/)
 
 <p align="center">
-    <img src="/banner.jpeg" width="100%">
+    <img src="/banner.png" width="100%">
 </p>
